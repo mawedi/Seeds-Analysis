@@ -2,4 +2,8 @@
 .venv/
 .env
 
+# Ignore all .pyc files in the project root and venv directories
 **/__pycache__/
+
+# Ignoring the .gitignore file
+.gitignore
