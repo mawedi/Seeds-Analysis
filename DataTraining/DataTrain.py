@@ -6,3 +6,5 @@ def train_model(X_train, Y_train, n_neighbors):
     model.fit(X_train, Y_train)
 
     return model
+
+

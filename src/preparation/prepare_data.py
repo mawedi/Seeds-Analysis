@@ -29,7 +29,7 @@ def repair_class(df):
 
     # Verifying the changes
     print(f"Classes: {df['Target'].unique()}")
-
+    print("mohamed", df.columns)
 
 # Separating the dataset to features and target
 def split_dataset(df):
@@ -59,3 +59,4 @@ def split_dataset_to_train_and_test(X, Y, test_size=0.25):
     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=test_size, random_state=0)
 
     return X_train, X_test, Y_train, Y_test
+

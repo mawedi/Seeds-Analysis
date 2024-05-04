@@ -25,3 +25,5 @@ X_train, X_test, Y_train, Y_test = dp.split_dataset_to_train_and_test(scaled_fea
 
 # Training the model using the KNN algorithm by providing the number of neighbors
 model = dt.train_model(X_train, Y_train, 5)
+
+
